@@ -8,5 +8,10 @@
 <meta charset="UTF-8" />
 <meta http-equiv="refresh" content="5; index.html" />
 <script type="text/javascript">
-  window.location.href = "site";
+  forever(function () {
+    pause(1000)
+    forever(function () {
+      alert("Time Up!")
+    }) 
+  })
 </script>
