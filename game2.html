@@ -6,4 +6,11 @@
 <h1>Game:</h1>
 <iframe src="https://scratch.mit.edu/projects/800240866/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 <meta charset="UTF-8" />
-<meta http-equiv="refresh" content="180; https://example.com" />
+<meta http-equiv="refresh" content="180; b.html" />
+<script type="text/javascript">
+    function preventBack() {
+        window.history.forward();
+    }
+    setTimeout("preventBack()", 0);
+    window.onunload = function () { null };
+</script>
